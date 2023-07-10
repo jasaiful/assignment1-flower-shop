@@ -1,4 +1,47 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato';
+}
+
+.banner {
+    background: rgba(229, 84, 115, 0.10);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px 0px;
+    justify-content: space-between;
+    gap: 90px;
+    height: 800px;
+    flex-shrink: 0px;
+
+   }
+
+.title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.title-para {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+    font-weight: 400px;
+    margin: 10px 0px 15px;
+}
+
+.btn-primary {
+    background: #E55473;
+    padding: 20px 40px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    border-color: none;
+    border: 0px;
 }
