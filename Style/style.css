@@ -3,8 +3,6 @@
     padding: 0px;
     font-family: 'Lato';
 }
- 
-/* banner section */
 
 .banner {
     background: rgba(229, 84, 115, 0.10);
@@ -16,15 +14,26 @@
     padding: 30px 150px 0px;
     justify-content: space-between;
     gap: 90px;
-    height: 800px;
-    position: static;
-    flex-shrink: 0px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner div {
+    width: 50%;
 }
 
 .banner .banner-pic {
-    height: 800px;
-    width: 500px;
-    flex-shrink: 0;
+    height: 100%;
+    width: 635px;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.banner .banner-pic img {
+    width: 100%
 }
 
 .title {
@@ -54,7 +63,6 @@
     margin-top: 5px;
 }
 
-Fl
 .featured-flower .section-title {
     color: #272727;
     font-size: 30px;
@@ -169,9 +177,9 @@ span {
 }
 
 .instagram {
-    margin: 80px 100px 20px 100px;
     padding: 20px;
-
+    margin: 30px 30px;
+    text-align: center;
 }
 
 .section-title {
@@ -182,11 +190,6 @@ span {
     margin-bottom: 20px;
 }
 
-.instagram {
-    margin: 30px 30px;
-    text-align: center;
-}
-
 .flowers {
     display: flex;
     align-items: center;
@@ -195,23 +198,36 @@ span {
     margin-top: 30px;
 }
 
-.latest-deal {
+.flowers div img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.latest-deal-container {
+    width: 0, auto;
+    height: 450px;
+    margin: 0px 30px 30px;
     background: url('../back.png');
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    /* width: 1440px; */
-    height: 450px;
-    /* padding: 60px 30px 60px 30px; */
 }
 
 .deal-title {
-    padding: 80px 0px 20px 0px;
+    padding: 100px 0px 20px 0px;
 }
 
-.sub-btn {
-    padding-top: 30px;
+.sub-btn input {
+    margin-top: 60px;
+    width: 600px;
+    padding: 10px;
     height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+
+
+
 }
 
 .footer {
@@ -219,7 +235,7 @@ span {
     background-color: #111010;
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 200px;
     padding: 100px;
     margin-top: 100px;
 }
@@ -230,13 +246,13 @@ span {
 }
 
 .footer-title {
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     font-weight: 800px;
 }
 
 .footer-rights {
     color: rgba(255, 255, 255, 0.40);
-    font font-weight: 400px;
+    font-weight: 400px;
     font-size: 16px;
 }
