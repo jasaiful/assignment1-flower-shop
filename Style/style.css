@@ -3,6 +3,8 @@
     padding: 0px;
     font-family: 'Lato';
 }
+ 
+/* banner section */
 
 .banner {
     background: rgba(229, 84, 115, 0.10);
@@ -17,14 +19,12 @@
     height: 800px;
     position: static;
     flex-shrink: 0px;
-
 }
 
 .banner .banner-pic {
     height: 800px;
     width: 500px;
     flex-shrink: 0;
-
 }
 
 .title {
@@ -32,7 +32,6 @@
     font-size: 50px;
     font-weight: 1000;
     text-align: left;
-
 }
 
 .title-para {
@@ -55,6 +54,7 @@
     margin-top: 5px;
 }
 
+Fl
 .featured-flower .section-title {
     color: #272727;
     font-size: 30px;
@@ -173,7 +173,8 @@ span {
     padding: 20px;
 
 }
-.section-title{
+
+.section-title {
     color: #272727;
     font-size: 30px;
     font-weight: 1000;
@@ -193,21 +194,49 @@ span {
     gap: 15px;
     margin-top: 30px;
 }
+
 .latest-deal {
     background: url('../back.png');
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    width: 1440px;
+    /* width: 1440px; */
     height: 450px;
-    margin: 30px 50px 80px 50px;
-    padding: 60px 30px 60px 30px;
+    /* padding: 60px 30px 60px 30px; */
 }
-    .deal-title{
-padding: 80px 0px 20px 0px ;
-    }
 
-   .sub-btn {
+.deal-title {
+    padding: 80px 0px 20px 0px;
+}
+
+.sub-btn {
     padding-top: 30px;
     height: 40px;
-   }
+}
+
+.footer {
+    text-align: center;
+    background-color: #111010;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.90);
+    padding: 30px;
+}
+
+.footer-title {
+    font-size: 50px;
+    color: white;
+    font-weight: 800px;
+}
+
+.footer-rights {
+    color: rgba(255, 255, 255, 0.40);
+    font font-weight: 400px;
+    font-size: 16px;
+}
