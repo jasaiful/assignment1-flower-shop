@@ -167,3 +167,28 @@
 span {
     color: #E55473;
 }
+
+.instagram {
+    margin: 80px 100px 20px 100px;
+    padding: 20px;
+
+}
+.section-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flowers {
+    margin-top: 100px;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    margin-right: 100px;
+    padding: 50px 100px;
+
+}
