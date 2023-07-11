@@ -16,6 +16,7 @@
     gap: 90px;
     height: 800px;
     position: static;
+    flex-shrink: 0px;
 
 }
 
@@ -54,7 +55,7 @@
     margin-top: 5px;
 }
 
-.fuatured-flower .section-title {
+.featured-flower .section-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
@@ -74,7 +75,6 @@
 .flower-pic {
     display: flex;
     align-items: center;
-    justify-items: center;
     justify-content: center;
     margin-top: 30px;
     gap: 10px;
@@ -86,7 +86,6 @@
     background: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 20px 5px 0px 5px;
-    flex-shrink: 0px;
 
 }
 
@@ -95,7 +94,6 @@
     background: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 20px 5px 0px 5px;
-    flex-shrink: 0px;
 }
 
 .pic-3 {
@@ -103,13 +101,38 @@
     background: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 20px 5px 0px 5px;
-    image-orientation: flip;
 }
 
 .flower-tag {
     display: flex;
     justify-content: center;
-    gap: 250px;
+    gap: 200px;
     margin-bottom: 20px;
+}
 
+/* clip-art section */
+
+.clip-art-section {
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    width: 985px;
+    height: 120px;
+    position: center;
+    margin: 100px 150px;
+    padding: 50px 0px;
+
+}
+
+.clip-art-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+    padding: 5px;
+}
+
+.art-tag {
+    display: flex;
+    gap: 130px;
+    padding: 15px 40px;
 }
