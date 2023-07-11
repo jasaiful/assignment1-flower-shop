@@ -30,7 +30,7 @@
 .title {
     color: #272727;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 1000;
     text-align: left;
 
 }
@@ -38,14 +38,14 @@
 .title-para {
     text-align: left;
     color: gray;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin: 20px 0px 20px;
 }
 
 .btn-primary {
     background: #E55473;
-    padding: 20px 40px;
+    padding: 15px 30px;
     border-radius: 8px;
     color: white;
     font-size: 20px;
@@ -57,8 +57,8 @@
 
 .featured-flower .section-title {
     color: #272727;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: 1000;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 10px;
@@ -128,11 +128,42 @@
     align-items: center;
     justify-content: space-around;
     flex-shrink: 0;
-    padding: 5px;
+    padding: 5px 80px;
 }
 
 .art-tag {
     display: flex;
-    gap: 130px;
-    padding: 15px 40px;
+    gap: 80px;
+    padding: 15px 100px;
+}
+
+.hot-deal {
+    background: rgba(229, 84, 115, 0.05);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 100px 200px;
+    gap: 90px;
+}
+
+.hot-pic {
+
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+.hot-deal-info {
+    text-align: center;
+    justify-content: center;
+}
+
+.hot-para {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+span {
+    color: #E55473;
 }
