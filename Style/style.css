@@ -181,14 +181,33 @@ span {
     margin-bottom: 20px;
 }
 
+.instagram {
+    margin: 30px 30px;
+    text-align: center;
+}
+
 .flowers {
-    margin-top: 100px;
     display: flex;
-    height: 150px;
     align-items: center;
     justify-content: space-around;
     gap: 15px;
-    margin-right: 100px;
-    padding: 50px 100px;
-
+    margin-top: 30px;
 }
+.latest-deal {
+    background: url('../back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 1440px;
+    height: 450px;
+    margin: 30px 50px 80px 50px;
+    padding: 60px 30px 60px 30px;
+}
+    .deal-title{
+padding: 80px 0px 20px 0px ;
+    }
+
+   .sub-btn {
+    padding-top: 30px;
+    height: 40px;
+   }
